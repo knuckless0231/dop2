@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from 'react';
-import logo from './logo.svg';
+import React, { useState} from 'react';
 import './App.css';
 import {Button} from "./Components/Button";
 
@@ -46,7 +45,6 @@ function App() {
                             <span>{e.userId}</span>
                             <span>{e.id}</span>
                             <span>{e.title}</span>
-                            <span> {`${e.completed}`}</span>
                         </li>
                     );
                 })}
